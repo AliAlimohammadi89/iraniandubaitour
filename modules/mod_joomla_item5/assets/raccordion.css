@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordion{
+	direction:ltr;
+	text-align:right;
+}
+.accordion-wrapper {
+	overflow:hidden;
+	display:block;
+	position:relative;
+	display:inline-block;
+}
+.slide {
+	overflow: hidden;
+	display:block;
+	-moz-box-shadow: -5px 0px 5px rgba(1, 1, 1, 0.3);
+	-webkit-box-shadow: -5px 0px 5px rgba(1, 1, 1, 0.3);
+	box-shadow: -5px 0px 5px rgba(1, 1, 1, 0.3);
+	position:absolute;
+	cursor: pointer;
+	float:right;
+	display: inline-block;
+	zoom: 1;
+}
+.slide img {
+	position:relative;
+}
+.caption {
+	position:absolute;
+	background:rgba(1, 1, 1, 0.4);
+	padding:20px;
+	right:0;
+	width:100%;
+}
+.caption p {
+	color:#FFF;
+	margin:0px;
+	font-size:12px;
+	line-height:1.6;
+}
+.caption h1 {
+	color:#CCC;
+	font-size:16px;
+	font-weight:normal;
+	margin:0px;
+	margin-bottom:5px;
+}
+.caption a {
+	text-decoration:none;
+}

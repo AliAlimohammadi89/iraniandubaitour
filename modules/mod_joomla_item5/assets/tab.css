@@ -1,0 +1,51 @@
+.containers ul li{
+	width:98%;
+	background:#FFF;
+	text-align:center;
+	font-size:18px;
+	border-bottom:1px solid #CCC;
+	padding:1%;
+	line-height:100%;
+	padding-top:21%;
+	padding-bottom:22%;
+}
+.containers ul li.active{
+	background:#448CCB;
+	color:#FFF;
+}
+.containers ul li.active a{
+	color:#FFF;
+}
+.photos{
+	position:relative;
+}
+.photos img{
+	float:right;
+}
+.photos h4{
+	position:absolute;
+	display:block;
+	bottom:0px;
+	z-index:1;
+	padding:5%;
+	margin:0px;
+	background:rgba(0,0,0,0.70);
+	color:#FFF;
+	width:90%;
+}
+.content > div{
+	margin:15px;
+}
+.content > div h4{
+	color:#448CCB;
+	font-size:16px;
+}
+.content > div .date{
+	color:#999;
+}
+.content > div .btn{
+	background:#448CCB;
+	color:#FFF;
+	border-radius:4px;
+}
+

@@ -1,0 +1,18 @@
+/* Tiny Carousel */
+.vertical { height: 1%; overflow: hidden; margin:auto; }
+.vertical .viewport { float: left; width:100%; overflow: hidden; position: relative; }
+.vertical .buttons {
+	text-align:center;
+	display:block;
+	margin:auto;
+	font-size:40px;
+}
+.vertical img {
+	display:block;
+	margin:auto;
+}
+.vertical .buttons:hover {
+}
+.vertical .disable { visibility: hidden; }
+.vertical .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 100%; left: 0; top: 0; }
+.vertical .overview li { float: left; width:100%; text-align:center; }

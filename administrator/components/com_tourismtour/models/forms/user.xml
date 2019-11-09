@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="hidden" default="0"  />
+
+		<field name="name" type="text" default="" class="inputbox" label="USER_NAME" description="USER_NAME_DESC"  />
+		<field name="username" type="text" default="" class="inputbox" label="USER_USERNAME" description="USER_USERNAME_DESC" required="true" />
+		<field name="email" type="email" default="" class="inputbox" label="USER_EMAIL" description="USER_EMAIL_DESC"  />
+		<field name="registerdate" type="calendar" format="%Y-%m-%d %H:%M:%S" filter="SERVER_NONE" default="" class="inputbox" label="USER_REGISTERDATE" description="USER_REGISTERDATE_DESC"  />
+		<field name="lastvisitdate" type="calendar" format="%Y-%m-%d %H:%M:%S" filter="SERVER_NONE" default="" class="inputbox" label="USER_LASTVISITDATE" description="USER_LASTVISITDATE_DESC"  />
+		
+	</fieldset>
+</form>

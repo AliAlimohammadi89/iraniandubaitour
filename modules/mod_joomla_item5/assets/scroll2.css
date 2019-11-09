@@ -1,0 +1,90 @@
+.scroll2 .list_carousel {
+	float:right;
+	width:99%;
+}
+.scroll2 .prev {
+	float: right;
+	display:block;
+	background:url(images/next.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	width:2%;
+	height:131px;
+	font-size:0px;
+	color:#CCCCCC;
+}
+.scroll2 .next {
+	float: left;
+	display:block;
+	background:url(images/back.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:2%;
+	height:131px;
+	font-size:0px;
+	color:#CCCCCC;
+}
+.scroll2 .list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	float:left;
+}
+.scroll2 .list_carousel li {
+	color: #999;
+	text-align: right;
+	padding: 0px;
+	margin:7px;
+	display: block;
+	float: left;
+	background:#FFF;
+	box-shadow:2px 2px 0px 0px #999;
+}
+.scroll2 .list_carousel li .banner{
+	float:right;
+}
+.scroll2 .list_carousel li img{
+	background:#FFFFFF;
+	margin-top:0px;
+}
+.scroll2 .list_carousel li .title{
+	position:relative;
+	font-size:11px;
+	text-align:center;
+	height:32px;
+	overflow:hidden;
+	}
+.scroll2 .list_carousel li .title a{
+	color:#333;
+}
+.scroll2 .list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.scroll2 .pager {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top:-15px;
+	position:relative;
+	z-index:100;
+}
+.scroll2 .pager a {
+	margin: 0 5px;
+	text-decoration: none;
+	padding:7px;
+	background:#CCCCCC;
+	display:inline-table;
+	font-size:0px;
+	border-radius:100px;
+	box-shadow:1px 1px 5px -3px #000 inset;
+}
+.scroll2 .pager a.selected {
+	text-decoration: underline;
+	background:#999999;
+}

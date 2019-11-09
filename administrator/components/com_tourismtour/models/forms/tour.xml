@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="hidden" default="0"  />
+		<field name="alias" type="alias" label="JFIELD_ALIAS_LABEL" description="JFIELD_ALIAS_DESC" class="inputbox" size="40"/>
+		<field name="published" type="radio" class="btn-group" label="JSTATUS" size="1" default="1" >
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field name="fld_star" type="radio" class="btn-group" label="JSTAR" size="1" default="1" >
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field name="fld_count_person" type="number" default="" class="inputbox" label="fld_count_person" description="fld_count_person"  />
+
+		<field name="fld_title" type="text" default="" class="inputbox" label="TOUR_FLD_TITLE" description="TOUR_FLD_TITLE_DESC"  />
+		<field name="fld_price" type="number" default="" class="inputbox" label="TOUR_FLD_PRICE" description="TOUR_FLD_PRICE_DESC"  />
+		<field name="fld_price_total" type="number" default="" class="inputbox" label="TOUR_FLD_PRICE_TOTAL" description="TOUR_FLD_PRICE_TOTAL_DESC"  />
+		<field name="fld_metadata" type="textarea" default="" class="inputbox" label="TOUR_FLD_METADATA" description="TOUR_FLD_METADATA_DESC"  />
+		<field name="fld_start_time" type="text" default="" class="inputbox" label="TOUR_FLD_START_TIME" description="TOUR_FLD_START_TIME_DESC"  />
+		<field name="fld_start_address" type="textarea" default="" class="inputbox" label="TOUR_FLD_START_ADDRESS" description="TOUR_FLD_START_ADDRESS_DESC" required="true" />
+		<field name="fld_locationstart" type="textarea" default="" class="inputbox" label="TOUR_FLD_LOCATIONSTART" description="TOUR_FLD_LOCATIONSTART_DESC"  />
+		<field name="fld_startdate" type="calendar" format="%Y-%m-%d" filter="SERVER_NONE" default="" class="inputbox" label="TOUR_FLD_STARTDATE" description="TOUR_FLD_STARTDATE_DESC"  />
+		<field name="fld_enddate" type="calendar" default="" class="inputbox" label="TOUR_FLD_ENDDATE" description="TOUR_FLD_ENDDATE_DESC"  />
+		<field name="fld_weekday" multiple="1" type="list" class="btn-group" label="TOUR_FLD_WEEKDAY" size="1" default="1" description="TOUR_FLD_WEEKDAY_DESC"  >
+			<option value="1">JSaturday</option>
+			<option value="2">JSunday</option>
+			<option value="3">JMonday</option>
+			<option value="4">JTuesday</option>
+			<option value="5">JWednesday</option>
+			<option value="6">JThursday</option>
+			<option value="7">JFriday</option>
+		</field>
+
+
+		<field name="fld_pic" type="media" default="" class="inputbox" label="TOURFEATURE_FLD_PIC" description="TOURFEATURE_FLD_PIC_DESC"  />
+
+
+		<field name="fld_create_time" type="hidden" default="" class="inputbox" label="TOUR_FLD_CREATE_TIME" description="TOUR_FLD_CREATE_TIME_DESC"  />
+		<field name="fld_info" type="editor" filter="JComponentHelper::filterText" buttons="true" default="" class="inputbox" label="TOUR_FLD_INFO" description="TOUR_FLD_INFO_DESC"  />
+		<field name="fld_points" type="myselect" multiple="1" related="" allowroot="0" sourcetable="turningpoint" fielda="id" fieldb="fld_name" default="" class="inputbox" label="TOUR_FLD_POINTS" description="TURNINGPOINT"  />
+		<field name="fld_tourfeature" type="myselect" multiple="1" related="" allowroot="0" sourcetable="tourfeature" fielda="id" fieldb="fld_title" default="" class="inputbox" label="TOUR_FLD_TOURFEATURE" description="TOURFEATURE"  />
+		
+	</fieldset>
+</form>

@@ -1,0 +1,117 @@
+.slider2 .sliderwrapper{
+	width:100%;
+	overflow:hidden;
+	font-size:12px;
+	position:relative;
+	background:#F8F8F8;
+}
+.slider2 .sliderwrapper .contentdiv{
+	background:#F8F8F8;
+	width:100%;
+	position:absolute;
+}
+.slider2 .sliderwrapper img{
+	float:right;
+	margin-left:10px;
+	padding:0px;
+	max-width:50%;
+}
+.slider2 .sliderwrapper .contentheading2{
+	float:right;
+	width:100%;
+}
+.slider2 span.sotitr2{
+	font-size:12px;
+	margin-bottom:-5px;
+	display:block;
+}
+.slider2 .sliderwrapper h2{
+	padding:0px;
+	margin:0px;
+	border:none;
+	background:none;
+	border-radius:0px;
+}
+.slider2 .sliderwrapper h2 a{
+	font-size:12px;
+}
+.slider2 #paginate-slider2{
+	width:100%;
+	float:left;
+	position:absolute;
+	z-index:100000;
+}
+.slider2 #paginate-slider2 a{
+	width:12px;
+	height:12px;
+	line-height:12px;
+	text-align:center;
+	background:#EFEFEF;
+	border-radius:3px;
+	color:#666666;
+	overflow:hidden;
+	border:1px solid #DEDEDE999;
+	margin:2px;
+	display:inline-table;
+	font-size:11px;
+	font-weight:bold;
+}
+.slider2 #paginate-slider2 a.selected{
+	background:#FF6600;
+	color:#FFFFFF;
+}
+.slider2 #paginate-slider2 a.prev{
+	border:none;
+	color:#FFFFFF;
+	border-radius:0px;
+	font-size:0px;
+	display:inline-table;
+}
+.slider2 #paginate-slider2 a.next{
+	border:none;
+	color:#FFFFFF;
+	border-radius:0px;
+	font-size:0px;
+	display:inline-table;
+}
+.slider2 .paginations{
+	width:50%;
+	float:left;
+	position:absolute;
+	left:0px;
+	bottom:20px;
+	text-align:left;
+	z-index:100000;
+}
+.slider2 .paginations a{
+	width:14px;
+	height:14px;
+	line-height:12px;
+	text-align:center;
+	background:#CCC;
+	border-radius:100px;
+	color:#666666;
+	overflow:hidden;
+	margin:2px;
+	display:inline-table;
+	font-size:0px;
+	font-weight:bold;
+}
+.slider2 .paginations a.selected{
+	background:#FF6600;
+	color:#FFFFFF;
+}
+.slider2 .paginations a.prev{
+	border:none;
+	color:#FFFFFF;
+	border-radius:0px;
+	font-size:0px;
+	display:none;
+}
+.slider2 .paginations a.next{
+	border:none;
+	color:#FFFFFF;
+	border-radius:0px;
+	font-size:0px;
+	display:none;
+}

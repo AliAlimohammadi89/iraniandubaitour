@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<config>
+		<fieldset name="masterconfig" label="CONFIG_COMPONENT">
+			<field name="enable_component" type="radio" class="btn-group" default="1" label="CONFIG_ENABLE_COMPONENT" description="CONFIG_ENABLE_COMPONENT_DESC" >
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="disable_message" type="textarea" default="" label="CONFIG_DISABLED_COMPONENT_ALERT" description="CONFIG_DISABLED_COMPONENT_ALERT_DESC" />
+		</fieldset>
+		<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC" >
+			<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" filter="rules" validate="rules" component="com_tourismtour" section="component" />
+		</fieldset>
+	</config>

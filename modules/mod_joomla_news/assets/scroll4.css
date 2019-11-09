@@ -1,0 +1,101 @@
+.scroll4 {
+	float:right;
+	width:100%;
+}
+.scroll4 .list_carousel {
+	float:right;
+	width:100%;
+}
+.page4{
+	width:34px;
+	float:right;
+	height:16px;
+	margin-top:-8px;
+}
+.page4 .prev4{
+	float: left;
+	display:block;
+	background:url(images/left.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	width:16px;
+	height:16px;
+	font-size:0px;
+	color:#CCCCCC;
+}
+.page4 .next4 {
+	float: right;
+	display:block;
+	background:url(images/right.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:16px;
+	height:16px;
+	font-size:0px;
+	color:#CCCCCC;
+}
+.scroll4 .list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	float:left;
+}
+.scroll4 .list_carousel li {
+	color: #999;
+	text-align: right;
+	padding: 0px;
+	margin:2px;
+	display: block;
+	float: left;
+	margin-top:12px;
+}
+.scroll4 .list_carousel li .banner{
+	float:right;
+}
+.scroll4 .list_carousel li img{
+	background:#FFFFFF;
+	margin-top:0px;
+	border-radius:100px;
+	border:1px solid #FFF;
+}
+.scroll4 .list_carousel li .title{
+	position:relative;
+	font-size:11px;
+	text-align:center;
+	height:28px;
+	overflow:hidden;
+	}
+.scroll4 .list_carousel li .title a{
+	color:#FFF;
+}
+.scroll4 .list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.scroll4 .pager {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top:-15px;
+	position:relative;
+	z-index:100;
+}
+.scroll4 .pager a {
+	margin: 0 5px;
+	text-decoration: none;
+	padding:7px;
+	background:#CCCCCC;
+	display:inline-table;
+	font-size:0px;
+	border-radius:100px;
+	box-shadow:1px 1px 5px -3px #000 inset;
+}
+.scroll4 .pager a.selected {
+	text-decoration: underline;
+	background:#999999;
+}

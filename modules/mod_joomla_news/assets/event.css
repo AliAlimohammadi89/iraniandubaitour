@@ -1,0 +1,33 @@
+ul.eventlist{
+	width:98%;
+	margin:0.5%;
+	padding:0.5%;
+	float:right;
+}
+li.event{
+	width:96%;
+	margin:1%;
+	padding:1%;
+	border-radius:6px;
+	font-size:11px;
+	line-height:160%;
+	background:#F2F4F8;
+	float:right;
+	position:relative;
+}
+li.event img{
+	float:right;
+	margin:5px;
+	border-radius:4px;
+}
+li.event .date{
+	background:#999999;
+	border-radius:3px;
+	padding:5px;
+	font-size:9px;
+	position:absolute;
+	line-height:100%;
+	left:5px;
+	bottom:-2px;
+	color:#FFF;
+}

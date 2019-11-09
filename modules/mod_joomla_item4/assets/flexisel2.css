@@ -1,0 +1,102 @@
+.clearout {
+height:20px;
+clear:both;
+}
+
+#flexiselDemo1, .flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+.flexiselDemo2 .title{
+	display:block;
+	margin-top:5px;
+	font-size:12px;
+	line-height: 25px;
+	height: 25px;
+	overflow: hidden;
+}
+.flexiselDemo2 li > a{
+	width: 96%;
+	padding:0;
+	margin: 2%;
+	float: right;
+	background:#FFF;
+}
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+	direction:ltr;
+	overflow:hidden;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    position: relative;
+    overflow: hidden;
+    float:left;
+    width:90%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    min-width: 98%;
+    cursor: pointer;
+    position: relative;
+    margin: 1%;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    padding:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top:0;
+    background:#CACACA;
+    color: #fff;
+	width:5%;
+	height:100%;
+	bottom:0px;
+	font-size:0px;    
+}
+
+.nbs-flexisel-nav-left {
+    left:0px;
+}
+
+.nbs-flexisel-nav-left {
+	background:url(images/left3.png) no-repeat left center #CACACA;
+}
+
+.nbs-flexisel-nav-left.disabled {
+    opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+    right: 0px;    
+}
+
+.nbs-flexisel-nav-right {
+	background:url(images/right3.png) no-repeat right center #CACACA;
+}
+
+.nbs-flexisel-nav-right.disabled {
+    opacity: 0.4;
+}

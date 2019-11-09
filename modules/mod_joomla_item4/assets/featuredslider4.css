@@ -1,0 +1,100 @@
+.superslider #featured4{ 
+	position:relative;
+	float:right;
+	widows:100%;
+	overflow:hidden;
+}
+.superslider #featured4 ul.ui-tabs-nav{ 
+	list-style:none; 
+	padding:0;
+	margin:0;
+	width:100%;
+	position:relative;
+	z-index:100000;
+	float:right;
+	margin-right:-1px;
+}
+.superslider #featured4 ul.ui-tabs-nav li{ 
+	padding:0px;
+	margin:0px;
+	float:right;
+	background:#CCC;
+	padding:0.5%;
+}
+.superslider #featured4 ul.ui-tabs-nav li img{ 
+	float:right;
+	padding:0;
+	margin:0;
+	width:100%;
+	min-height:100%;
+}
+.superslider #featured4 ul.ui-tabs-nav li span{ 
+	font-size:11px;
+	line-height:18px; 
+}
+.superslider #featured4 li.ui-tabs-nav-item{
+	display:block;
+	float:right;
+}
+.superslider #featured4 li.ui-tabs-nav-item a{ 
+	display:block; 
+	color:#333;
+	padding:0;
+	font-size:12px; 
+}
+.superslider #featured4 ul.ui-tabs-nav li:hover{ 
+}
+.superslider #featured4 ul.ui-tabs-nav li.ui-tabs-selected{
+	background:#333;
+}
+.superslider #featured4 ul.ui-tabs-nav li.ui-tabs-selected img{ 
+	position:relative;
+	z-index:10000;
+}
+.superslider #featured4 .ui-tabs-panel{
+	overflow:hidden;
+	position:relative;
+}
+.superslider #featured4 .ui-tabs-panel img{ 
+	border:1px solid #666;
+	margin:-1px;
+}
+.superslider #featured4 .ui-tabs-panel .info{ 
+	position:absolute;
+	height:90px; 
+	background: url(images/transparent-bg.png); 
+	text-shadow:1px 1px #000;
+	overflow:hidden;
+	width:50%;
+	min-width:300px;
+	bottom:10px;
+	right:10px;
+}
+.superslider #featured4:hover .ui-tabs-panel .info{ 
+}
+.superslider #featured4 .info h4{ 
+	font-size:14px;
+	color:#fff;
+	margin:3px;
+	padding:0;
+	overflow:hidden; 
+	font-weight:normal;
+	text-shadow:1px 1px #000;
+	border-bottom:1px solid #CCC;
+}
+.superslider #featured4 .info div{ 
+	font-size:11px; 
+	line-height:15px;
+	color:#f0f0f0;
+	padding:5px;
+}
+.superslider #featured4 .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+.superslider #featured4 .info a:hover{ 
+	text-decoration:underline; 
+}
+.superslider #featured4 .ui-tabs-hide{ 
+	display:none; 
+}

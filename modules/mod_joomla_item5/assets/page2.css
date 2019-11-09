@@ -1,0 +1,120 @@
+.pageajax{
+	margin-top:5px;
+}
+.page_item{
+	float:right;
+	width:99%;
+	padding:0.5%;
+	margin-bottom:1%;
+}
+.pagesubtitle{
+	color:#999;
+	font-size:10px;
+}
+.pagetitle{
+	font-weight:bold;
+}
+.pageajax img{
+	float:right;
+	margin:0px;
+}
+.pageajax .photo{
+	background:#FAFAFA;
+}
+.pageajax .text{
+	padding:1%;
+	background:#FAFAFA;
+}
+.pageajax .info{
+	background:#F0F0F0;
+}
+.pageajax .info > div{
+	padding-right:15px;
+	font-size:13px;
+	background:url(images/arrow2.png) no-repeat top right;
+	margin:3px;
+}
+.nicons{
+	font-size:12px;
+}
+.nicons .comment{
+	text-align:center;
+	background:#C2483B;
+	color:#FFF;
+	width:100%;
+	float:right;
+	border-bottom:5px solid #E4E4E4;
+}
+.nicons .comment span:before{
+	content:'\e820';
+	font-family:dima_icon;
+	display:block;
+	margin:10px;
+}
+.nicons .author{
+	text-align:center;
+	background:#F9F7F8;
+	color:#B5B3B4;
+	width:100%;
+	float:right;
+	border-bottom:5px solid #E4E4E4;
+}
+.nicons .author span:before{
+	content:'\e81e';
+	font-family:dima_icon;
+	display:block;
+	margin:10px;
+}
+.nicons .date{
+	text-align:center;
+	background:#F9F7F8;
+	color:#B5B3B4;
+	width:100%;
+	float:right;
+	border-bottom:5px solid #E4E4E4;
+}
+.nicons .date span:before{
+	content:'\e82e';
+	font-family:dima_icon;
+	display:block;
+	margin:10px;
+}
+.pageajax div.title, .pageajax div.desc, .pageajax div.subtitle{
+}
+.contenttext{
+	float:right;
+}
+.pagina{
+	float:right;
+	width:99%;
+	text-align:center;
+	background:#E1E1E1;
+	padding:0.5%;
+}
+.pagina a{
+	display:inline-table;
+	background:#D3D3D3;
+	padding:0.25%;
+	margin:0.25%;
+	min-width:15px;
+	color:#666;
+	cursor:pointer;
+}
+.pagina a.jp-current{
+	background:#CCC;
+	color:#FFF;
+}
+.row1{
+	background:#F7F7F7;
+}
+.row0{
+	background:#EFEFEF;
+}
+.pagetext{
+	line-height:150%;
+	font-size:12px;
+}
+.pagetext img{
+	margin-left:5px;
+	margin-bottom:5px;
+}

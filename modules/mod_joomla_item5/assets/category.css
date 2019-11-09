@@ -1,0 +1,88 @@
+.row-fluid.content_category{
+	width:96%;
+	background:#FFF;
+	margin:2%;
+	line-height:150%;
+	text-align:justify;
+	height:420px;
+	overflow:hidden;
+}
+.row-fluid.content_category [class*="span"]{
+	float:right;
+}
+.detailes_category h4{
+	padding:0px;
+	margin:0px;
+	background:#2563D1 url(images/arrow_left.png) no-repeat left center;
+	height:35px;
+	line-height:35px;
+	float:right;
+	width:94%;
+	padding-right:1%;
+	padding-left:5%;
+	color:#FFF;
+}
+.menu_category{
+	float:left;
+}
+.menu_category li{
+	float:right;
+	margin:2px;
+	border-radius:100px;
+	overflow:hidden;
+}
+.menu_category li:nth-child(1) a{
+	display:block;
+	color:#FFF;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	font-size:11px;
+	text-align:center;
+	background:#DE093F;
+}
+.menu_category li:nth-child(2) a{
+	display:block;
+	color:#FFF;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	font-size:11px;
+	text-align:center;
+	background:#29EDCA;
+}
+.menu_category li:nth-child(3) a{
+	display:block;
+	color:#FFF;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	font-size:11px;
+	text-align:center;
+	background:#B1CB3E;
+}
+.menu_category li:nth-child(4) a{
+	display:block;
+	color:#999;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	font-size:11px;
+	text-align:center;
+	background:#F2F5FA;
+}
+.category_desc{
+	margin:10px;
+	font-size:11px;
+}
+.ITEM5_category{
+	padding:1%;
+	margin:1%;
+	max-width:98%;
+	font-size:12px;
+	line-height:170%;
+	border-bottom:1px solid #CCC;
+}
+.link2{
+	color:#D90003;
+}

@@ -1,0 +1,87 @@
+.cricle_category{
+	position:relative;
+	width:100%;
+	max-width:900px;
+	margin:auto;
+	min-height:350px;
+}
+.menu_category{
+}
+.category_info{
+	text-align:center;
+	max-width:300px;
+	margin:auto;
+	line-height:150%;
+}
+.category_info a.title{
+	background:#EB5E71;
+	color:#FFF;
+	padding:5px;
+	margin:auto;
+	text-align:center;
+	margin-top:10px;
+	display:block;
+	max-width:100px;
+}
+.cricle_category [class*="line"]{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	height:80px;
+	width:80px;
+	background:#EFEFEF;
+	border-radius:100px;
+	border:3px solid transparent;
+}
+.cricle_category [class*="line"]:hover{
+	border:3px solid #CCC;
+	background:#FFF;
+}
+.cricle_category li.line1{
+	position:absolute;
+	right:20%;
+	top:10%;
+}
+.cricle_category li.line2{
+	position:absolute;
+	right:10%;
+	top:35%;
+}
+.cricle_category li.line3{
+	position:absolute;
+	right:20%;
+	top:65%;
+}
+.cricle_category li.line4{
+	position:absolute;
+	left:20%;
+	top:10%;
+}
+.cricle_category li.line5{
+	position:absolute;
+	left:10%;
+	top:35%;
+}
+.cricle_category li.line6{
+	position:absolute;
+	left:20%;
+	top:65%;
+}
+
+.cricle_category li.linex {
+    background-position: right -133px;
+    bottom: -17px;
+    left: -74px;
+    width: 110px;
+}
+.cricle_category li.linex {
+    background: rgba(0, 0, 0, 0) url("images/line.png") no-repeat scroll 0 0;
+    display: block;
+    height: 30px;
+    left: -130px;
+    position: absolute;
+    width: 140px;
+    z-index: 2;
+}

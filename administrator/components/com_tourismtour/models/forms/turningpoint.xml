@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="hidden" default="0"  />
+		<field name="alias" type="alias" label="JFIELD_ALIAS_LABEL" description="JFIELD_ALIAS_DESC" class="inputbox" size="40"/>
+		<field name="published" type="radio" class="btn-group" label="JSTATUS" size="1" default="1" >
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field name="fld_name" type="text" default="" class="inputbox" label="TURNINGPOINT_FLD_NAME" description="TURNINGPOINT_FLD_NAME_DESC" required="true" />
+		<field name="fld_location" type="textarea" default="" class="inputbox" label="TURNINGPOINT_FLD_LOCATION" description="TURNINGPOINT_FLD_LOCATION_DESC"  />
+		<field name="fld_metadata" type="textarea" default="" class="inputbox" label="TURNINGPOINT_FLD_METADATA" description="TURNINGPOINT_FLD_METADATA_DESC"  />
+		<field name="fld_url_info" type="url" default="" class="inputbox" label="TURNINGPOINT_FLD_URL_INFO" description="TURNINGPOINT_FLD_URL_INFO_DESC"  />
+		<field name="fld_info" type="editor" filter="JComponentHelper::filterText" buttons="true" default="" class="inputbox" label="TURNINGPOINT_FLD_INFO" description="TURNINGPOINT_FLD_INFO_DESC"  />
+		<field name="fld_pic" type="media" default="" class="inputbox" label="TURNINGPOINT_FLD_PIC" description="TURNINGPOINT_FLD_PIC_DESC"  />
+
+	</fieldset>
+</form>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="hidden" default="0"  />
+		<field name="alias" type="alias" label="JFIELD_ALIAS_LABEL" description="JFIELD_ALIAS_DESC" class="inputbox" size="40"/>
+		<field name="published" type="radio" class="btn-group" label="JSTATUS" size="1" default="1" >
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field name="fld_id_user" type="user" default="" class="inputbox" label="TOURORDER_FLD_ID_USER" description="TOURORDER_FLD_ID_USER_DESC"  />
+		<field name="fld_id_tour" type="myselect" related="" filtersection="" allowroot="0" sourcetable="tour" fielda="id" fieldb="fld_title" default="" class="inputbox" label="TOURORDER_FLD_ID_TOUR" description="TOUR"  />
+		<field name="fld_datetor" type="number" default="" class="inputbox" label="TOURORDER_FLD_DATETOR" description="TOURORDER_FLD_DATETOR_DESC"  />
+		<field name="fld_countofpersons" type="number" default="" class="inputbox" label="TOURORDER_FLD_COUNTOFPERSONS" description="TOURORDER_FLD_COUNTOFPERSONS_DESC" required="true" />
+		<field name="fld_phonenumber2" type="number" default="" class="inputbox" label="TOURORDER_FLD_PHONENUMBER2" description="TOURORDER_FLD_PHONENUMBER2_DESC"  />
+		<field name="fld_price_aed" type="number" default="" class="inputbox" label="TOURORDER_FLD_PRICE_AED" description="TOURORDER_FLD_PRICE_AED_DESC"  />
+		<field name="fld_price_irr" type="number" default="" class="inputbox" label="TOURORDER_FLD_PRICE_IRR" description="TOURORDER_FLD_PRICE_IRR_DESC"  />
+		<field name="fld_price_date" type="number" default="" class="inputbox" label="TOURORDER_FLD_PRICE_DATE" description="TOURORDER_FLD_PRICE_DATE_DESC"  />
+		<field name="fld_payment_number" type="textarea" default="" class="inputbox" label="TOURORDER_FLD_PAYMENT_NUMBER" description="TOURORDER_FLD_PAYMENT_NUMBER_DESC"  />
+		<field name="fld_payment_price" type="number" default="" class="inputbox" label="TOURORDER_FLD_PAYMENT_PRICE" description="TOURORDER_FLD_PAYMENT_PRICE_DESC"  />
+		<field name="fld_payment_status" type="number" default="" class="inputbox" label="TOURORDER_FLD_PAYMENT_STATUS" description="TOURORDER_FLD_PAYMENT_STATUS_DESC"  />
+
+		<field name="fld_datetor[]" type="media" directory="stories" />
+		<field name="fld_datetor11" hide_none="1" type="imagelist"  multiple="1" default="" label="Select an image" description="" directory="images/headers" exclude="0" stripext="" />
+		<field name="myimage"     type="imagelist" default="" label="Select an image" description="" directory="" exclude="" stripext="" />
+	</fieldset>
+</form>
+
+
+

@@ -1,0 +1,60 @@
+.scroll3 .list_carousel {
+	float:right;
+	width:100%;
+}
+.scroll3 .list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	float:left;
+}
+.scroll3 .list_carousel li {
+	color: #999;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	float: left;
+}
+.scroll3 .list_carousel li img{
+}
+.scroll3 .list_carousel li .title{
+	position:relative;
+	text-align:center;
+	}
+.scroll3 .list_carousel li:hover .title{
+}
+.scroll3 .list_carousel li .title a{
+	color:#004372;
+}
+.scroll3 .list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.scroll3 .pager {
+	float: left;
+	width: 100%;
+	position:relative;
+	z-index:100;
+	text-align:center;
+}
+.scroll3 .pager a {
+	margin: 0 2px;
+	text-decoration: none;
+	padding:10px;
+	background:url(images/off.png) no-repeat center center;
+	background-size:100% 100%;
+	display:inline-table;
+	font-size:0px;
+	border-radius:0px;
+}
+.scroll3 .pager a.selected {
+	text-decoration: underline;
+	background:url(images/on.png) no-repeat center center;
+	background-size:100% 100%;
+}

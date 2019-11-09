@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>tourismtour</name>
+	<author>علی علی محمدی</author>
+	<creationDate>1396/11/22</creationDate>
+	<copyright>(C) 2003 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>alimohammadia92@gmail.com</authorEmail>
+	<authorUrl>َAliAliMohammadi.ir</authorUrl>
+	<version>1.0.0</version>
+	<description></description>
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<scriptfile>install.php</scriptfile>
+	<languages folder="site/language">
+		<language tag="en-GB">en-GB/en-GB.com_tourismtour.ini</language>
+		<language tag="fa-IR">fa-IR/fa-IR.com_tourismtour.ini</language>
+	</languages>
+	<files folder="site">
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>tourismtour.php</filename>
+		<filename>router.php</filename>
+	</files>
+	<administration>
+		<menu>com_tourismtour</menu>
+			<submenu>
+				<menu link="option=com_tourismtour">PANEL</menu>
+				<menu link="option=com_tourismtour&amp;view=tours">TOURISMTOUR_TOURS</menu>
+				<menu link="option=com_tourismtour&amp;view=tourorders">TOURISMTOUR_TOURORDERS</menu>
+				<menu link="option=com_tourismtour&amp;view=coments">TOURISMTOUR_COMENTS</menu>
+				<menu link="option=com_tourismtour&amp;view=turningpoints">TOURISMTOUR_TURNINGPOINTS</menu>
+				<menu link="option=com_tourismtour&amp;view=tourfeatures">TOURISMTOUR_TOURFEATURES</menu>
+				<menu link="option=com_tourismtour&amp;view=images">TOURISMTOUR_IMAGES</menu>
+				<menu link="option=com_tourismtour&amp;view=help">TOURISMTOUR_HELP</menu>
+				<menu link="option=com_tourismtour&amp;view=about">TOURISMTOUR_ABOUT</menu>
+			</submenu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>tourismtour.php</filename>
+		</files>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_tourismtour.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_tourismtour.sys.ini</language>
+			<language tag="fa-IR">fa-IR/fa-IR.com_tourismtour.ini</language>
+			<language tag="fa-IR">fa-IR/fa-IR.com_tourismtour.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

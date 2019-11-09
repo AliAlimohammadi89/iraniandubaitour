@@ -1,0 +1,30 @@
+
+.wrap {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.gg_btn {
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+}
+
+.gg_left {
+	background: url(images/btn_l.png) no-repeat center center;
+  left: 0px;
+}
+
+.gg_right {
+  background: url(images/btn_r.png) no-repeat center center;
+  right: 0px;
+}
+
+.wrap ul {
+}
+
+.wrap ul li { position: absolute; }
+
+/*# sourceMappingURL=css.css.map */

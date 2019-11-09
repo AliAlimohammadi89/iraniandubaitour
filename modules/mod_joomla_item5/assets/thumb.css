@@ -1,0 +1,96 @@
+.row-fluid.items_list .ITEM5{
+	border-bottom:1px dotted #CCC;
+	padding-bottom:5px;
+	padding:0.5%;
+	line-height:160%;
+}
+.row-fluid.items_list [class*="span"]{
+	float:right;
+	display:block;
+}
+.row-fluid.items_list .ITEM5 h4{
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+	color:#222;
+}
+.row-fluid.items_list .ITEM5 img{
+	width:90%;
+	height:auto;
+	margin:auto;
+	display:block;
+	background:url(images/loading_dark.gif) center center no-repeat #EFEFEF;
+	border:1px solid #CCC;
+	padding:0px;
+}
+.row-fluid.items_list .ITEM5 .date{
+	font-size:11px;
+	color:#999;
+	background:url(images/invoice.png) no-repeat top right;
+	padding-right:20px;
+	line-height:16px;
+}
+.row-fluid.items_list .ITEM5 .time{
+	font-size:11px;
+	color:#999;
+	background:url(images/full-time.png) no-repeat right top;
+	padding-right:20px;
+	line-height:16px;
+}
+.row-fluid.items_list .ITEM5 .hits{
+	font-size:11px;
+	color:#999;
+	background:url(images/hits.png) no-repeat right top;
+	padding-right:20px;
+	line-height:16px;
+}
+.row-fluid.items_list .ITEM5 .owner{
+	font-size:11px;
+	color:#999;
+	background:url(images/users.png) no-repeat right top;
+	padding-right:20px;
+	line-height:16px;
+}
+.row-fluid.items_list .ITEM5 .desc{
+	font-size:12px;
+	color:#666;
+}
+.ITEM54{
+	width: 96%;
+	margin: 2%;
+	position: relative;
+	float: right;
+	overflow: hidden;
+	border-radius: 7px;
+	background: #037BC8;
+}
+.ITEM54 .info{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 5px #111, -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+}
+.ITEM54 img{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s; /* Firefox 4 */
+	-webkit-transition: all 0.5s; /* Safari and Chrome */
+	-o-transition: all 0.5s; /* Opera */
+	float: right;
+	width: 100%;
+	opacity: 1;
+}
+.ITEM54 img:hover{
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+	opacity: 0.8;
+}
+.ITEM54 .info a{
+	color: #FFF;
+}
+
+
+

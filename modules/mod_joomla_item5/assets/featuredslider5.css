@@ -1,0 +1,98 @@
+.superslider #featured5{ 
+	position:relative;
+	float:right;
+	widows:100%;
+	border-radius:4px;
+	overflow:hidden;
+}
+.superslider #featured5 ul.ui-tabs-nav{ 
+	list-style:none; 
+	padding:0;
+	margin:0;
+	position:relative;
+	z-index:100000;
+	float:right;
+	background:#666;
+	margin-top:-2px;
+	padding-top:2px;
+	border:1px solid #666;
+}
+.superslider #featured5 ul.ui-tabs-nav li img{ 
+	float:right;
+	padding:0px;
+	margin:2%;
+	width:96%;
+}
+.superslider #featured5 ul.ui-tabs-nav li span{ 
+	font-size:11px;
+	line-height:18px; 
+}
+.superslider #featured5 li.ui-tabs-nav-item{
+	display:block;
+	float:right;
+	padding:2%;
+}
+.superslider #featured5 li.ui-tabs-nav-item a{ 
+	display:block; 
+	color:#333;
+	padding:0;
+	font-size:12px; 
+}
+.superslider #featured5 ul.ui-tabs-nav li.ui-tabs-selected{
+	background:#000;
+}
+.superslider #featured5 ul.ui-tabs-nav li.ui-tabs-selected img{ 
+	position:relative;
+	z-index:10000;
+	box-shadow:0px 0px 10px #000;
+	border:1px solid #000000;
+}
+.superslider #featured5 .ui-tabs-panel{ 
+	position:relative;
+}
+.superslider #featured5 .ui-tabs-panel img{ 
+	border:1px solid #666;
+	margin:-1px;
+}
+.superslider #featured5 .ui-tabs-panel .info{ 
+	height:80px; 
+	background: url(images/transparent-bg.png); 
+	text-shadow:1px 1px #000;
+	overflow:hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	float:right;
+	position:absolute;
+	z-index:1000;
+	width:100%;
+	bottom:25px;
+}
+.superslider #featured5:hover .ui-tabs-panel .info{ 
+}
+.superslider #featured5 .info h2{ 
+	font-size:12px;
+	color:#fff;
+	padding:5px;
+	margin:0;
+	overflow:hidden; 
+	font-weight:bold;
+	text-shadow:1px 1px #000;
+}
+.superslider #featured5 .info div{ 
+	font-size:13px; 
+	line-height:15px;
+	color:#f0f0f0;
+}
+.superslider #featured5 .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+.superslider #featured5 .info a:hover{ 
+	text-decoration:underline; 
+}
+.superslider #featured5 .ui-tabs-hide{ 
+	display:none; 
+}

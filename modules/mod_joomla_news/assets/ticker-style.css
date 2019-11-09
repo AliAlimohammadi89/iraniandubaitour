@@ -1,0 +1,141 @@
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+	width: 99%;
+	height: 40px;
+	display: block;
+	background: #FFF;
+	float:right;
+	margin:0.5%;
+	overflow:hidden;
+	border:1px solid #CCC;
+}
+.ticker-wrapper .ticker {
+	width: 100%;
+	height: 40px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background: #FFF;
+}
+.ticker-title {
+	color: #FFF;
+	background:url(images/new_scroll.rtl.png) #448CCB no-repeat top left;
+	width:140px;
+	font-size:13px;
+	padding-right:10px;
+	height:100%;
+	line-height:40px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+}
+.ticker-content {
+	float:right;
+	position:absolute;
+}
+.ticker-content a {
+	text-decoration: none;	
+	color: #403;
+	line-height:40px;
+}
+.ticker-content a:hover {
+	color:#448CCB;
+}
+.ticker-swipe {
+	position: absolute;
+	top: 0px;
+	background: #FFF;
+	display: block;
+	height: 40px; 
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	background: #FFF;
+	border-right: 1px solid #FFF;
+	height:40px;
+	width: 1000px;
+	display: block;
+}
+.ticker-controls {
+	list-style-type: none;
+	float: left;
+	width:70px;
+	margin-right:60px;
+	position:absolute;
+	margin-top:10px;
+}
+.ticker-controls li {
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+.ticker-controls li.jnt-play-pause {
+	background-image: url('images/controls.png');
+	background-position: 32px 16px;
+}
+.ticker-controls li.jnt-play-pause.over {
+	background-position: 32px 32px;
+}
+.ticker-controls li.jnt-play-pause.down {
+	background-position: 32px 0px;
+}
+.ticker-controls li.jnt-play-pause.paused {
+	background-image: url('images/controls.png');	
+	background-position: 48px 16px;
+}
+.ticker-controls li.jnt-play-pause.paused.over {
+	background-position: 48px 32px;
+}
+.ticker-controls li.jnt-play-pause.paused.down {
+	background-position: 48px 0px;
+}
+.ticker-controls li.jnt-prev {
+	background-image: url('images/controls.png');
+	background-position: 0px 16px;		
+}
+.ticker-controls li.jnt-prev.over {
+	background-position: 0px 32px;		
+}
+.ticker-controls li.jnt-prev.down {
+	background-position: 0px 0px;		
+}
+.ticker-controls li.jnt-next {
+	background-image: url('images/controls.png');	
+	background-position: 16px 16px;	
+}
+.ticker-controls li.jnt-next.over {
+	background-position: 16px 32px;	
+}
+.ticker-controls li.jnt-next.down {	
+	background-position: 16px 0px;	
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+	color: #FFF;
+}
+.left .ticker-swipe {
+	/*left: 80px;*/
+}
+.left .ticker-controls, .left .ticker-content, .left .ticker-title, .left .ticker {
+    float: left;
+}
+.left .ticker-controls {
+    padding-left: 6px;
+}
+.right .ticker-swipe {
+	/*right: 80px;*/
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}
+.right .ticker-controls {
+    padding-right: 6px;
+}

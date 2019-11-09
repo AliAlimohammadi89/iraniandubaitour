@@ -1,0 +1,69 @@
+	.mycontainer{
+		border: 1px solid rgba(0, 0, 0, 0.15);
+		border-radius: 4px 4px 4px 4px;
+		font-size: 12px;
+		line-height: 18px;
+		margin: 0 0 9px;
+		padding: 8.5px;
+		word-break: break-all;
+	}
+	.clear{clear:both;}
+	.tinypic{
+		width:120px;
+		height:90px;
+		border-radius: 5px;
+		}
+	.tourismtourpanel div.tourismtourIcon, #tourismtourpanel div.tourismtourIcon {
+		float: right;
+		margin-bottom: 15px;
+		margin-right: 15px;
+	}
+	div.tourismtourIcon-wrapper div.tourismtourIconDesc {
+		border: 1px solid #CCCCCC;
+		border-radius: 5px;
+		padding: 2px;
+	}
+	div.tourismtourIcon-wrapper div.tourismtourIcon img.daroopic {
+		background-color: #FFFFFF;
+		border: 1px solid #CCCCCC;
+		height: 85px;
+		padding: 4px;
+		width: 140px;
+	}
+	div.tourismtourIcon-wrapper div.tourismtourIcon div.desc {
+		margin: 2px;
+		text-align: justify;
+	}
+	.tourismtourpanel div.tourismtourIcon a, #tourismtourpanel div.tourismtourIcon a {
+		background-color: #FFFFFF;
+		background-position: -30px center;
+		border: 1px solid #CCCCCC;
+		border-radius: 5px 5px 5px 5px;
+		color: #565656;
+		display: block;
+		float: right;
+		margin: 2px;
+		height: 150px;
+		text-decoration: none;
+		transition-duration: 0.8s;
+		transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+		vertical-align: middle;
+		width: 125px;
+	}
+	#tourismtourpanel div.tourismtourIcon a:hover, #tourismtourpanel div.tourismtourIcon a:focus, 
+	#tourismtourpanel div.tourismtourIcon a:active, .tourismtourpanel div.tourismtourIcon a:hover,
+	.tourismtourpanel div.tourismtourIcon a:focus, .tourismtourpanel div.tourismtourIcon a:active {
+		background-position: 0 center;
+		border-bottom-left-radius: 50% 20px;
+		box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+		position: relative;
+		z-index: 10;
+	}
+	#tourismtourpanel img, .tourismtourpanel img,.tourismtourIcon img {
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-top: 5px;
+	}
+	.loading{
+	background-color:#CC3366;
+	}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="hidden" default="0"  />
+		<field name="alias" type="alias" label="JFIELD_ALIAS_LABEL" description="JFIELD_ALIAS_DESC" class="inputbox" size="40"/>
+		<field name="published" type="radio" class="btn-group" label="JSTATUS" size="1" default="1" >
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field name="fld_src" type="number" default="" class="inputbox" label="IMAGE_FLD_SRC" description="IMAGE_FLD_SRC_DESC"  />
+		<field name="fld_type" type="number" default="" class="inputbox" label="IMAGE_FLD_TYPE" description="IMAGE_FLD_TYPE_DESC"  />
+		<field name="fld_title" type="text" default="" class="inputbox" label="IMAGE_FLD_TITLE" description="IMAGE_FLD_TITLE_DESC"  />
+		
+	</fieldset>
+</form>

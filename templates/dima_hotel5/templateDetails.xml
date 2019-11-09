@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/">
+	<extension version="2.5" type="template" client="site">
+		<name>dima_hotel5</name>
+		<creationDate>2018-02-26 14:32:30</creationDate>
+		<author>Rohollah Balvardi</author>
+		<authorEmail>r.balvardi@gmail.com</authorEmail>
+		<authorUrl>http://www.dima.ir</authorUrl>
+		<copyright>Copyright (C) 2005 - 2012 Dima Group. All rights reserved.</copyright>
+		<license>GNU General Public License version 2 or later</license>
+		<version>3.0.0</version>
+		<description>Joomla j30 Tableless Design Template! Created By Themegenerator.ir </description>
+	
+		<files>
+			<folder>css</folder>
+			<folder>images</folder>
+			<folder>fonts</folder>
+			<folder>js</folder>
+			
+			<filename>index.php</filename>
+		
+			<filename>templateDetails.xml</filename>
+			<filename>index.html</filename>
+			<filename>demo.html</filename>
+			<filename>template_preview.png</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>favicon.ico</filename>
+			<filename>component.php</filename>
+			<filename>error.php</filename>
+			<filename>offline.php</filename>
+		</files>
+	
+		<positions>
+			<position>banner</position>
+			<position>footer</position>
+			<position>debug</position>
+			<position>logo</position>
+			<position>other</position>
+			<position>user</position>
+			<position>phone</position>
+			<position>slider</position>
+			<position>reserve</position>
+			<position>component</position>
+			<position>user1</position>
+			<position>user2</position>
+			<position>user3</position>
+			<position>user4</position>
+			<position>order</position>
+			<position>bottom1</position>
+			<position>bottom2</position>
+			<position>bottom3</position>
+			<position>bottom4</position>
+			<position>footer1</position>
+			<position>footer2</position>
+			<position>footer3</position>
+			<position>footer4</position>
+			<position>footer</position>
+			<position>social</position>
+		</positions>
+		<config>
+			<fields name="params">
+				<fieldset name="advanced">
+				<field name="countdown" type="text" default="2016/01/01" label="CountDown Time" description="Count Down Time for Offline Page Standard Date Sample: 2016/01/01" />
+				<field name="loading" type="list" default="0" label="Jquery Page Loading" description="">
+				  <option value="0">Disable</option>
+				  <option value="1">Enable</option>
+				</field>
+				<field name="logo" type="media" default="black.png" label="Logo File" description="Logo File" directory="images" filter="" exclude="" stripext="" />
+					<field name="social1" type="text" default="www.template.com" label="FaceBook" description="FaceBook" />
+					<field name="social2" type="text" default="" label="Twitter" description="Twitter" />	
+					<field name="social3" type="text" default="" label="Google+" description="Google+" />	
+					<field name="social4" type="text" default="" label="Rss" description="Rss" />	
+					<field name="social5" type="text" default="" label="Instagram" description="Instagram" />	
+					<field name="social6" type="text" default="" label="Telegram" description="Telegram" />	
+					<field name="backtp" type="text" default="Back to Top" label="Back to Top" description="Back to Top Title" />
+				</fieldset>
+			</fields>
+		</config>
+	</extension>
